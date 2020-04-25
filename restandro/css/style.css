@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    background: #444;    
+}
+
+
+.nav {
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style: none;
+    margin: 0 20px;
+    display: block;
+}
+
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+table {
+    margin: 20px auto;
+}
+
+table, th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.button-delete {
+    background-color: #df3636;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.button-detail {
+    background-color: #2ca17a;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.button-edit {
+    background-color: #412ca1;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.btn-nav {
+    border: none;
+    outline: none;
+    background-color: #2ca17a;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 20px;
+    cursor: pointer;
+}
