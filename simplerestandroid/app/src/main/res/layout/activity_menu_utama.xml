@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MenuUtama">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="20dp">
+
+
+        <TextView
+            android:id="@+id/tv1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Apa Jadwalmu Hari Ini?"
+            android:paddingTop="10dp"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:paddingBottom="15dp"/>
+
+            <LinearLayout
+                android:id="@+id/LL1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="130dp"
+                android:layout_below="@+id/tv1"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/bt1"
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tambah Jadwal Kegiatan"
+                    android:textColor="#FFF"
+                    android:theme="@style/button1"/>
+
+                    <Button
+                        android:id="@+id/bt4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Data Pengguna"
+                        android:textColor="#FFF"
+                        android:theme="@style/button1"/>
+
+                    <Button
+                        android:id="@+id/btnLg"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dp"
+                        android:text="Logout"
+                        android:textColor="#FFF"
+                        android:theme="@style/button2" />
+            </LinearLayout>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+
